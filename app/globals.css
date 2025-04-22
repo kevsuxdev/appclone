@@ -6,7 +6,7 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: #f9f3f0;
   --color-foreground: var(--foreground);
   --font-oswald: var(--font-oswald);
   --color-base-green-300: '#304f25';
@@ -15,12 +15,6 @@
   --font-coiny: var(--font-coiny);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 * {
   scroll-behavior: smooth;
 }
