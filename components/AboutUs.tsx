@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <section id='about' className='h-[80dvh] flex items-center justify-center flex-col mt-20 gap-10'>
+    <section id='about' className='h-[80dvh] flex items-center justify-center flex-col gap-10'>
         <article className='flex items-center justify-center flex-col gap-2'>
             <h1 className='text-3xl font-bold uppercase mb-10'>About FoodSaver</h1>
             <p className='w-1/2 text-center text-xl font-medium tracking-tight font-lato'>At FoodSaver, we believe that great food should never go to waste. Our mission is to connect businesses with surplus food to conscious consumers looking for affordable, delicious meals—helping both the planet and people's wallets.</p>

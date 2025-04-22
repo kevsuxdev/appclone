@@ -6,7 +6,7 @@ const WhyUseFoodSaver = () => {
     <section className='mb-20 flex items-center justify-start flex-col h-[50dvh]'>
       <article className='flex flex-col gap-12'>
         <h1 className='text-4xl font-bold text-center uppercase'>Why Use</h1>
-        <h1 className='text-7xl font-bold text-center font-coiny text-[#8c925b] tracking-wide'>
+        <h1 className='text-7xl font-bold text-center font-coiny tracking-wide'>
           FoodSaver
         </h1>
       </article>
