@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Oswald, Lato, Coiny } from 'next/font/google'
 import './globals.css'
+import { Analytics } from "@vercel/analytics/next"
 
 const oswaldSans = Oswald({
   variable: '--font-oswald',
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${oswaldSans.variable} ${latoSans.variable} ${coinySans.variable} antialiased`}>{children}</body>
+      <Analytics/>
     </html>
   )
 }
