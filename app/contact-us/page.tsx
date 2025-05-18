@@ -1,3 +1,5 @@
+import FinalFooter from '@/components/FinalFooter'
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import React from 'react'
 
@@ -5,7 +7,7 @@ const ContactUs = () => {
   return (
     <>
       <Header />
-      <section className='min-h-[87.8vh] mt-30 border border-black flex flex-col items-center py-16 px-32 space-y-32'>
+      <section className='min-h-[60dvh] mt-30 border border-black flex flex-col items-center py-16 px-32 space-y-32'>
         <article className='flex items-center flex-col gap-2'>
           <h1 className='text-base-green-300 text-[3.5rem] font-black tracking-tight uppercase'>Contact Us</h1>
         </article>
@@ -18,6 +20,8 @@ const ContactUs = () => {
           </div>
         </article>
       </section>
+      <Footer/>
+      <FinalFooter/>
     </>
   )
 }
