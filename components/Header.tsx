@@ -9,8 +9,8 @@ const Header = () => {
     <header className='fixed px-32 py-10 top-0 flex items-center justify-between bg-[#8c925b] z-20 min-w-screen'>
       <nav className='flex items-center justify-center gap-x-5'>
         <Link href='/' className='text-sm tracking-wide font-bold uppercase text-white hover:underline cursor-pointer'>Home</Link>
-        <a href='#about' className='text-sm tracking-wide font-bold uppercase text-white hover:underline cursor-pointer'>About Us</a>
-        <a href='#foodwaste' className='text-sm tracking-wide font-bold uppercase text-white hover:underline cursor-pointer'>About Food Waste</a>
+        <Link href='/#about' className='text-sm tracking-wide font-bold uppercase text-white hover:underline cursor-pointer'>About Us</Link>
+        <Link href='/#foodwaste' className='text-sm tracking-wide font-bold uppercase text-white hover:underline cursor-pointer'>About Food Waste</Link>
       </nav>
       <Image
         src={images.Logo}
