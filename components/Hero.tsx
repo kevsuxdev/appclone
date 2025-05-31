@@ -7,7 +7,7 @@ import GoogleStore from './GoogleStore'
 
 const Hero = () => {
   return (
-    <section className='relative w-full lg:h-[80dvh] h-[50dvh] flex items-end justify-center mt-20 lg:mt-10 '>
+    <section className='relative w-full lg:h-[80dvh] h-[50dvh] flex items-end justify-center mt-26 lg:mt-10 '>
       <Image src={images.Banner} alt='Banner' fill className='absolute' />
       <div className='absolute inset-0 bg-black/20 z-10' />
       <article className='z-10 mb-20 flex flex-col gap-5 items-center'>

@@ -11,7 +11,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <>
+    <main>
       <Header />
       <Hero />
       <Tagline />
@@ -21,7 +21,7 @@ const HomePage = () => {
       <AboutUs/>
       <Footer/>
       <FinalFooter/>
-    </>
+    </main>
   )
 }
 
