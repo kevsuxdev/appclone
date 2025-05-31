@@ -7,12 +7,12 @@ const CookiePolicy = () => {
   return (
     <main>
       <Header />
-      <section className='min-h-[87.8vh] mt-30 border border-black flex flex-col items-center py-16 px-32 space-y-32'>
+      <section className='min-h-[87.8vh] mt-30 flex flex-col items-center py-16 px-4 lg:px-32 space-y-32'>
         <article className='flex items-center flex-col gap-2'>
           <h1 className='text-base-green-300 text-[3.5rem] font-black tracking-tight uppercase'>Cookie Policy</h1>
         </article>
 
-        <div className='w-2/3 md:w-1/2 space-y-3 md:space-y-10'>
+        <div className='lg:w-1/2 space-y-3 md:space-y-10'>
           <p className='text-lg leading-8'>This Cookie Policy explains how FoodSaver uses cookies and similar technologies to recognize you when you visit our website or use our services. It describes what these technologies are, why we use them, and your rights to control their use.</p>
 
           <article className='flex flex-col gap-3'>

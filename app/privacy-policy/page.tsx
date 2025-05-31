@@ -7,14 +7,14 @@ const PrivacyPolicy = () => {
   return (
     <main>
       <Header />
-      <section className='min-h-[87.8vh] mt-30 border border-black flex flex-col items-center py-16 px-32 space-y-32'>
+      <section className='min-h-[87.8vh] mt-30 flex flex-col items-center py-16 px-4 lg:px-32 space-y-32'>
         <article className='flex items-center flex-col gap-2'>
           <h1 className='text-base-green-300 text-[3.5rem] font-black tracking-tight uppercase'>Privacy Policy</h1>
-          <p className='text-lg text-center'>Welcome to FoodSaver! Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the FoodSaver mobile application, website, and related services (collectively, the "Service"). By using FoodSaver, you agree to the terms of this Privacy Policy.</p>
+          <p className='text-lg text-justify lg:text-center'>Welcome to FoodSaver! Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the FoodSaver mobile application, website, and related services (collectively, the "Service"). By using FoodSaver, you agree to the terms of this Privacy Policy.</p>
           <p className='text-base-green-300/40 text-sm tracking-wide'>Last updated April 2025</p>
         </article>
 
-        <div className='w-2/3 md:w-1/2 space-y-3 md:space-y-10'>
+        <div className='lg:w-1/2 space-y-3 md:space-y-10'>
           <article className='flex flex-col gap-3'>
             <h1 className='text-3xl font-black uppercase'>1. Information We Collect</h1>
             <p className='text-lg leading-8'><strong>Personal Information </strong>such as your name, email address, phone number, delivery or pickup preferences, payment details (which are processed securely via third-party providers), and business information if you are a partner store.</p>

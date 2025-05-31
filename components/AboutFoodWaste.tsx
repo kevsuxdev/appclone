@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutFoodWaste = () => {
   return (
-    <section id='foodwaste' className='mt-20 flex flex-col items-start px-32'>
+    <section id='foodwaste' className='mt-20 flex flex-col items-start px-4 lg:px-32'>
           <h1 className='text-3xl font-bold uppercase mb-10 text-center w-full'>About Food Waste</h1>
 
           <article className='flex flex-col gap-5'>
@@ -10,7 +10,7 @@ const AboutFoodWaste = () => {
             <p className='font-lato text-xl tracking-tighter'>Food waste is a significant environmental and economic challenge. Globally, approximately 1.3 billion tons of food are wasted annually, contributing to 2.6 million tons of organic waste per day. This waste not only represents a loss of valuable resources but also contributes to environmental degradation. philstar.com</p>
           </article>
 
-          <article className='flex flex-col gap-5 mt-24 '>
+          <article className='flex flex-col gap-5 mt-24'>
             <h1 className='text-3xl font-bold'>Food Waste in the Philippines</h1>
             <p className='font-lato text-xl tracking-tighter'>The Philippines faces a serious food waste crisis, even as many Filipinos experience food insecurity. Key facts include:</p>
             <ul className='list-disc pl-5 text-lg'>

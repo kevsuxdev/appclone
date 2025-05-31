@@ -7,12 +7,12 @@ const TermsAndCondition = () => {
   return (
     <main>
       <Header />
-      <section className='min-h-[87.8vh] mt-30 border border-black flex flex-col items-center py-16 px-32 space-y-32'>
+      <section className='min-h-[87.8vh] mt-30 flex flex-col items-center py-16 px-4 lg:px-32 space-y-32'>
         <article className='flex items-center flex-col gap-2'>
           <h1 className='text-base-green-300 text-[3.5rem] font-black tracking-tight uppercase'>Terms & Condition</h1>
         </article>
 
-        <div className='w-2/3 md:w-1/2 space-y-3 md:space-y-10'>
+        <div className='lg:w-1/2 space-y-3 md:space-y-10'>
           <article className='space-y-4'>
             <h1 className='font-bold'>User Terms</h1>
             <p className='text-lg leading-8'>These Terms and Conditions ("Terms") govern your use of the FoodSaver website and services. By accessing or using the FoodSaver platform, you agree to be bound by these Terms. If you do not agree, please do not use the service.</p>

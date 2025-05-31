@@ -12,7 +12,7 @@ const WhyUseFoodSaver = () => {
       </article>
 
       <aside className='mt-12 flex items-center flex-col gap-5'>
-        <div className='flex items-center gap-x-5'>
+        <div className='flex items-center lg:flex-row flex-col gap-5'>
           <article className='flex flex-col border border-black p-3 rounded-lg gap-4 min-w-96'>
             <div className='flex items-center justify-between'>
               <h2 className='text-2xl font-bold tracking-tight'>Save Money</h2>
